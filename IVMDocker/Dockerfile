@@ -31,7 +31,6 @@ RUN cp ./ExaHyPE-Engine/ApplicationExamples/IVM_Feng/CopyCode/PointsSol.h ../Exa
 WORKDIR /ExaHyPE-Engine/ApplicationExamples/IVM_Feng/
 RUN ls
 RUN bash run.sh
-
 # Build model server
 WORKDIR / 
 COPY ./server.cpp server/
